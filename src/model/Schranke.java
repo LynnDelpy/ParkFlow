@@ -14,7 +14,7 @@ public class Schranke {
 
     public void schliessen() {
         offen = false;
-        System.out.println("Schranke schließt sich.");
+        System.out.println("Schranke schliesst sich.");
     }
 
 }
