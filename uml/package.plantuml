@@ -1,0 +1,47 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class Auto {
+  + Auto(int): 
+  - bezahlt: boolean
+  - einfahrtszeit: long
+  - ticketNummer: int
+   ticketNummer: int
+   bezahlt: boolean
+   einfahrtszeit: long
+}
+class Kasse {
+  + Kasse(double): 
+  + berechneParkgebuehr(Auto): double
+  + kassiere(Auto): void
+}
+class Main {
+  + Main(): 
+  + main(String[]): void
+  - findAutoByTicketNummer(List<Auto>, int): Auto?
+  - getIntInput(Scanner, String): int
+}
+class Parkhaus {
+  + Parkhaus(int): 
+  - freiePlaetze: int
+  - einfahrtsschranke: Schranke
+  - ausfahrtsschranke: Schranke
+  + ausfahren(Auto): boolean
+  + addKasse(Kasse): void
+  + einfahren(Auto): boolean
+   einfahrtsschranke: Schranke
+   freiePlaetze: int
+   ausfahrtsschranke: Schranke
+}
+class Schranke {
+  + Schranke(): 
+  + oeffnen(): void
+  + schliessen(): void
+}
+
+Parkhaus "1" -- "1..*" Kasse
+Parkhaus "1" -- "1" Schranke
+@enduml

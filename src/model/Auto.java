@@ -1,8 +1,8 @@
 package model;
 
 public class Auto {
-    private long einfahrtszeit;
-    private int ticketNummer;
+    private final long einfahrtszeit;
+    private final int ticketNummer;
     private boolean bezahlt;
 
     public Auto(int ticketNummer) {

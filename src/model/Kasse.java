@@ -3,7 +3,7 @@ package model;
 import java.util.Scanner;
 
 public class Kasse {
-    private double stundenTarif;
+    private final double stundenTarif;
 
     public Kasse(double stundenTarif) {
         this.stundenTarif = stundenTarif;

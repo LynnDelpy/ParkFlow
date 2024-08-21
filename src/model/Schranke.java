@@ -17,7 +17,4 @@ public class Schranke {
         System.out.println("Schranke schließt sich.");
     }
 
-    public boolean isGeoeffnet() {
-        return offen;
-    }
 }

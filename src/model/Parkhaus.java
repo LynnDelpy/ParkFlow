@@ -3,11 +3,11 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Parkhaus {
-    private int gesamtPlaetze;
+public class Parkhaus extends Schranke {
+    private final int gesamtPlaetze;
     private int freiePlaetze;
-    private List<Auto> parkplaetze;
-    private List<Kasse> kassen;
+    private final List<Auto> parkplaetze;
+    private final List<Kasse> kassen;
     private Schranke einfahrtsschranke;
     private Schranke ausfahrtsschranke;
 
