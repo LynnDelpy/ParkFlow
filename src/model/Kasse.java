@@ -1,6 +1,5 @@
 package model;
 
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Kasse {
@@ -18,7 +17,7 @@ public class Kasse {
 
     public void kassiere(Auto auto) {
         double gebuehr = berechneParkgebuehr(auto);
-        System.out.println("Bitte zahlen Sie " + gebuehr + " CHF.\n Bitte geben Sie den Betrag ein:");
+        System.out.println("Bitte zahlen Sie " + gebuehr + " CHF.\nBitte geben Sie den Betrag ein:");
 
         Scanner sc = new Scanner(System.in);
         double betrag;

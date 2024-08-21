@@ -1,6 +1,7 @@
 package model;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Parkhaus {
     private int gesamtPlaetze;
@@ -16,6 +17,7 @@ public class Parkhaus {
         this.parkplaetze = new ArrayList<>(gesamtPlaetze);
         this.kassen = new ArrayList<>();
     }
+
     public boolean einfahren(Auto auto) {
         if (freiePlaetze > 0) {
             parkplaetze.add(auto);
@@ -50,5 +52,4 @@ public class Parkhaus {
     public void setAusfahrtsschranke(Schranke schranke) {
         ausfahrtsschranke = schranke;
     }
-
 }

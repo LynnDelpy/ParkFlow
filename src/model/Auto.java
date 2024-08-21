@@ -23,7 +23,7 @@ public class Auto {
         return bezahlt;
     }
 
-    public void  setBezahlt(boolean bezahlt) {
+    public void setBezahlt(boolean bezahlt) {
         this.bezahlt = bezahlt;
     }
 }

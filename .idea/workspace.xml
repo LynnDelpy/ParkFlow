@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326914c3-ea88-4004-9fad-16902580b8e8" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/model/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Kasse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Parkhaus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Schranke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/ParkhausSimulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="326914c3-ea88-4004-9fad-16902580b8e8" name="Changes" comment="Auto and Kasse finished, Parkhaus half done">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParkFlow1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ParkFlow1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ksGAYWLSmb3Br0LGXoiwvWeyJr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,9 +39,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.google.cloudcode.ide_session_index": "20240821_0000",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Lynn/IdeaProjects/ParkFlow1/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/Lynn/IdeaProjects/ParkFlow1/src/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -74,11 +71,20 @@
       <option name="project" value="LOCAL" />
       <updated>1724064869322</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Auto and Kasse finished, Parkhaus half done">
+      <option name="closed" value="true" />
+      <created>1724066764106</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724066764106</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Auto and Kasse finished, Parkhaus half done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auto and Kasse finished, Parkhaus half done" />
   </component>
 </project>
