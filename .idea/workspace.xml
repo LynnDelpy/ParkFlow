@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="326914c3-ea88-4004-9fad-16902580b8e8" name="Changes" comment="Finished, maybe some more fixes will be done later">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Kasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Kasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +32,12 @@
     &quot;assignee&quot;: &quot;Lynnnn15&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Lynnnn15/ParkFlow.git&quot;,
-    &quot;accountId&quot;: &quot;c2731538-5a86-4b1e-ab65-9fcba6b7cf95&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Lynnnn15/ParkFlow.git",
+    "accountId": "64e380b8-d0f6-4665-8cd2-e9524bc5e292"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -82,13 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

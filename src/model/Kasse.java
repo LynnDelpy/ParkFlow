@@ -3,16 +3,16 @@ package model;
 import java.util.Scanner;
 
 public class Kasse {
-    private final double stundenTarif;
+    private final double minutenTarif;
 
-    public Kasse(double stundenTarif) {
-        this.stundenTarif = stundenTarif;
+    public Kasse(double minutenTarif) {
+        this.minutenTarif = minutenTarif;
     }
 
     public double berechneParkgebuehr(Auto auto) {
         long parkdauerInMillisekunden = System.currentTimeMillis() - auto.getEinfahrtszeit();
-        double parkdauerInStunden = parkdauerInMillisekunden / (1000.0 * 60 * 60);
-        return Math.ceil(parkdauerInStunden) * stundenTarif;
+        double parkdauerInMinuten = parkdauerInMillisekunden / (1000.0 * 60);
+        return Math.ceil(parkdauerInMinuten) * minutenTarif;
     }
 
     public void kassiere(Auto auto) {

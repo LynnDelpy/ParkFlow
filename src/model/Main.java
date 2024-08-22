@@ -17,7 +17,7 @@ public class Main {
         parkhaus.setAusfahrtsschranke(ausfahrt);
 
         // Kasse erstellen und zum Parkhaus hinzufügen
-        Kasse kasse = new Kasse(2.5); // 2.5 CHF pro Stunde
+        Kasse kasse = new Kasse(2.5); // 2.5 CHF pro Minute
         parkhaus.addKasse(kasse);
 
         Scanner scanner = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class Main {
         int autoCounter = 1;
 
 
-        // Switch zur auswahl der Interaktionen
+        // Switch zur Auswahl der Interaktionen
         while (true) {
             System.out.println("\nFreie Plätze: " + parkhaus.getFreiePlaetze());
             System.out.println("Wählen Sie eine Option:");
