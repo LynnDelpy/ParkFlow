@@ -24,7 +24,6 @@ public class Main {
         List<Auto> autos = new ArrayList<>();
         int autoCounter = 1;
 
-
         // Switch zur Auswahl der Interaktionen
         while (true) {
             System.out.println("\nFreie Plätze: " + parkhaus.getFreiePlaetze());
@@ -54,6 +53,7 @@ public class Main {
 
                 case 2:
                     if (!autos.isEmpty()) {
+                        Autoliste(autos);
                         int ticketNummer = getIntInput(scanner, "Wählen Sie ein Auto zum Bezahlen aus (Ticketnummer eingeben):");
                         Auto autoToPay = findAutoByTicketNummer(autos, ticketNummer);
                         if (autoToPay != null && !autoToPay.isBezahlt()) {
@@ -71,6 +71,7 @@ public class Main {
 
                 case 3:
                     if (!autos.isEmpty()) {
+                        Autoliste(autos);
                         int ticketNummer = getIntInput(scanner, "Wählen Sie ein Auto zum Ausfahren aus (Ticketnummer eingeben):");
                         Auto autoToExit = findAutoByTicketNummer(autos, ticketNummer);
                         if (autoToExit != null && autoToExit.isBezahlt()) {
@@ -91,12 +92,7 @@ public class Main {
                     break;
 
                 case 4:
-                    if (!autos.isEmpty()) {
-                        System.out.println("Liste der Autos im Parkhaus:");
-                        autos.forEach(a -> System.out.println("Auto " + a.getTicketNummer() + " - Bezahlt: " + (a.isBezahlt() ? "Ja" : "Nein")));
-                    } else {
-                        System.out.println("Es gibt keine Autos im Parkhaus.");
-                    }
+                    Autoliste(autos);
                     break;
 
                 case 5:
@@ -131,5 +127,15 @@ public class Main {
             }
         }
         return null;
+    }
+
+    // Methode zum Anzeigen der Autoliste
+    private static void Autoliste(List<Auto> autos) {
+        if (!autos.isEmpty()) {
+            System.out.println("Liste der Autos im Parkhaus:");
+            autos.forEach(a -> System.out.println("Auto " + a.getTicketNummer() + " - Bezahlt: " + (a.isBezahlt() ? "Ja" : "Nein")));
+        } else {
+            System.out.println("Es gibt keine Autos im Parkhaus.");
+        }
     }
 }
