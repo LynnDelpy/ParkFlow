@@ -1,0 +1,34 @@
+@startuml
+actor User
+
+User -> Main : run()
+Main -> Controller : run()
+
+Controller -> ParkingGarage : parkCar()
+ParkingGarage -> ParkingSpot : findAvailableSpot()
+ParkingSpot --> ParkingGarage : spotFound
+ParkingGarage -> Ticket : createTicket()
+Ticket --> ParkingGarage : ticket
+ParkingGarage -> Display : updateAvailableSpots()
+Display --> ParkingGarage : updated
+
+Controller -> UserInterface : printMessage("Parking ticket issued.")
+Controller -> UserInterface : getInput("Pay amount?")
+UserInterface --> Controller : amount
+Controller -> PaymentMachine : payTicket(ticket, amount)
+PaymentMachine -> Payment : processPayment(ticket, amount)
+Payment --> PaymentMachine : paymentStatus
+PaymentMachine --> Controller : paymentStatus
+Controller -> UserInterface : printMessage(paymentStatus)
+
+Controller -> ParkingGarage : exitCar(ticket)
+ParkingGarage -> Ticket : isPaid()
+Ticket --> ParkingGarage : paymentStatus
+ParkingGarage -> ParkingSpot : freeSpot()
+ParkingSpot --> ParkingGarage : spotFreed
+ParkingGarage -> Display : updateAvailableSpots()
+Display --> ParkingGarage : updated
+
+Controller -> UserInterface : printMessage("Exit successful.")
+
+@enduml

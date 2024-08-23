@@ -4,8 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326914c3-ea88-4004-9fad-16902580b8e8" name="Changes" comment="Finished, maybe some more fixes will be done later">
-      <change beforePath="$PROJECT_DIR$/src/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Main.java" afterDir="false" />
+    <list default="true" id="326914c3-ea88-4004-9fad-16902580b8e8" name="Changes" comment="little fix so it is in minute price">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/PaymentMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/ControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/ParkingGarageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/PaymentMachineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/TicketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParkFlow1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ParkFlow1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/EntranceGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/EntranceGate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ExitGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ExitGate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ParkingGarage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ParkingGarage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PaymentMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/UserInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/UserInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uml/SequenceDiagramm.puml" beforeDir="false" afterPath="$PROJECT_DIR$/uml/SequenceDiagramm.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uml/package.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/uml/package.plantuml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +41,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="module-info" />
+        <option value="UML Sequence" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,43 +60,56 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Lynnnn15/ParkFlow.git&quot;,
-    &quot;accountId&quot;: &quot;64e380b8-d0f6-4665-8cd2-e9524bc5e292&quot;
+    &quot;accountId&quot;: &quot;c2731538-5a86-4b1e-ab65-9fcba6b7cf95&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2ksGAYWLSmb3Br0LGXoiwvWeyJr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20240821_0002&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lynn/IdeaProjects/ParkFlow1/uml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Lynn/IdeaProjects/ParkFlow1/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ControllerTest.executor": "Run",
+    "JUnit.ParkingGarageTest.executor": "Run",
+    "JUnit.ParkingGarageTest.testExitCar.executor": "Debug",
+    "JUnit.PaymentMachineTest.executor": "Run",
+    "JUnit.TicketTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.google.cloudcode.ide_session_index": "20240821_0002",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/lucia/IdeaProjects/ParkFlow/uml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Lynn/IdeaProjects/ParkFlow1/src/Main.java",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -83,6 +123,14 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -94,6 +142,8 @@
       <workItem from="1724248511779" duration="40000" />
       <workItem from="1724248556323" duration="978000" />
       <workItem from="1724249566232" duration="85000" />
+      <workItem from="1724851613817" duration="3573000" />
+      <workItem from="1724855235716" duration="2039000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -145,11 +195,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="Auto and Kasse finished, Parkhaus half done" />
     <MESSAGE value="v2 first working version but not as intended" />
     <MESSAGE value="Finished, maybe some more fixes will be done later" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished, maybe some more fixes will be done later" />
+    <MESSAGE value="little fix so it is in minute price" />
+    <MESSAGE value="Total new start of project&#10;&#10;Not working, no testing done. Some logic missing. Sequence and Class diagram&#10;finished. Missing: payment processing logic,payment logic and logic to calculate fee.&#10;Programm will not crash but end itself" />
+    <option name="LAST_COMMIT_MESSAGE" value="Total new start of project&#10;&#10;Not working, no testing done. Some logic missing. Sequence and Class diagram&#10;finished. Missing: payment processing logic,payment logic and logic to calculate fee.&#10;Programm will not crash but end itself" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

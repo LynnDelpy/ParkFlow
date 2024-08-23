@@ -1,47 +1,92 @@
 @startuml
-
-!theme plain
-top to bottom direction
-skinparam linetype ortho
-
-class Auto {
-  + Auto(int): 
-  - bezahlt: boolean
-  - einfahrtszeit: long
-  - ticketNummer: int
-   ticketNummer: int
-   bezahlt: boolean
-   einfahrtszeit: long
+abstract class Gate {
+    + openGate() : void
+    + closeGate() : void
 }
-class Kasse {
-  + Kasse(double): 
-  + berechneParkgebuehr(Auto): double
-  + kassiere(Auto): void
+
+class EntranceGate extends Gate {
 }
+
+class ExitGate extends Gate {
+}
+
+class ParkingGarage {
+    - totalSpots : int
+    - availableSpots : int
+    + getAvailableSpots() : int
+    + parkCar() : Ticket
+    + exitCar(ticket : Ticket) : boolean
+    + listAllTickets() : List<Ticket>
+    + findTicketById(ticketId : String) : Ticket
+}
+
+class ParkingSpot {
+    - spotNumber : int
+    - isOccupied : boolean
+    + occupySpot() : void
+    + freeSpot() : void
+    + isAvailable() : boolean
+}
+
+class Ticket {
+    - ticketId : String
+    - issueTime : Date
+    - paid : boolean
+    + getFee(currentTime : Date) : double
+    + pay(amount : double) : boolean
+    + isPaid() : boolean
+    + getTicketId() : String
+}
+
+class Payment {
+    - amount : double
+    + processPayment(ticket : Ticket, amount : double) : boolean
+}
+
+class PaymentMachine {
+    + payTicket(ticket : Ticket, amount : double) : boolean
+}
+
+class Display {
+    - availableSpots : int
+    + updateAvailableSpots(spots : int) : void
+}
+
+interface UserInterface {
+    + printMessage(message : String) : void
+    + getInput(prompt : String) : String
+    + displayAvailableSpots(parkingGarage : ParkingGarage) : void
+    + processPayment(ticket : Ticket, paymentMachine : PaymentMachine) : void
+}
+
 class Main {
-  + Main(): 
-  + main(String[]): void
-  - findAutoByTicketNummer(List<Auto>, int): Auto?
-  - getIntInput(Scanner, String): int
-}
-class Parkhaus {
-  + Parkhaus(int): 
-  - freiePlaetze: int
-  - einfahrtsschranke: Schranke
-  - ausfahrtsschranke: Schranke
-  + ausfahren(Auto): boolean
-  + addKasse(Kasse): void
-  + einfahren(Auto): boolean
-   einfahrtsschranke: Schranke
-   freiePlaetze: int
-   ausfahrtsschranke: Schranke
-}
-class Schranke {
-  + Schranke(): 
-  + oeffnen(): void
-  + schliessen(): void
+    + main(args : String[]) : void
 }
 
-Parkhaus "1" -- "1..*" Kasse
-Parkhaus "1" -- "1" Schranke
+class Controller {
+    - ui : UserInterface
+    - garage : ParkingGarage
+    - paymentMachine : PaymentMachine
+    + run() : void
+    - handleEntrance() : void
+    - handlePayment() : void
+    - handleExit() : void
+    - listAllTickets() : void
+    - getMenu() : String
+}
+
+' Associations
+Main --> Controller : initializes
+Controller --> UserInterface : coordinates
+Controller --> ParkingGarage : manages
+Controller --> PaymentMachine : processes
+ParkingGarage --> Display : updates
+ParkingGarage *-- "0..*" ParkingSpot : contains
+ParkingGarage *-- "1..2" Gate : has
+ParkingSpot o-- "0..1" Ticket : assigned
+PaymentMachine --> Payment : uses
+Payment --> Ticket : processes
+ExitGate ..|> Gate
+EntranceGate ..|> Gate
+
 @enduml
