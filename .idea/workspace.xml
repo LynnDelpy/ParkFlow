@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326914c3-ea88-4004-9fad-16902580b8e8" name="Changes" comment="little fix so it is in minute price">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/PaymentMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/ControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/ParkingGarageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/PaymentMachineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/TicketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParkFlow1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ParkFlow1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/EntranceGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/EntranceGate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ExitGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ExitGate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Gate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ParkingGarage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ParkingGarage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/PaymentMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/UserInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/UserInterfaceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/SequenceDiagramm.puml" beforeDir="false" afterPath="$PROJECT_DIR$/uml/SequenceDiagramm.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/package.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/uml/package.plantuml" afterDir="false" />
-    </list>
+    <list default="true" id="326914c3-ea88-4004-9fad-16902580b8e8" name="Changes" comment="Projekt done&#10;&#10;Projekt is fully working. Unit testing done. ControllerTest.java is for some&#10; reason not working, i don't understand it. All other tests were all green. :)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +116,7 @@
       <workItem from="1724248556323" duration="978000" />
       <workItem from="1724249566232" duration="85000" />
       <workItem from="1724851613817" duration="3573000" />
-      <workItem from="1724855235716" duration="2039000" />
+      <workItem from="1724855235716" duration="2382000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -177,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724249988573</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Projekt done&#10;&#10;Projekt is fully working. Unit testing done. ControllerTest.java is for some&#10; reason not working, i don't understand it. All other tests were all green. :)">
+      <option name="closed" value="true" />
+      <created>1724857350832</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724857350832</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +183,8 @@
     <MESSAGE value="Finished, maybe some more fixes will be done later" />
     <MESSAGE value="little fix so it is in minute price" />
     <MESSAGE value="Total new start of project&#10;&#10;Not working, no testing done. Some logic missing. Sequence and Class diagram&#10;finished. Missing: payment processing logic,payment logic and logic to calculate fee.&#10;Programm will not crash but end itself" />
-    <option name="LAST_COMMIT_MESSAGE" value="Total new start of project&#10;&#10;Not working, no testing done. Some logic missing. Sequence and Class diagram&#10;finished. Missing: payment processing logic,payment logic and logic to calculate fee.&#10;Programm will not crash but end itself" />
+    <MESSAGE value="Projekt done&#10;&#10;Projekt is fully working. Unit testing done. ControllerTest.java is for some&#10; reason not working, i don't understand it. All other tests were all green. :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projekt done&#10;&#10;Projekt is fully working. Unit testing done. ControllerTest.java is for some&#10; reason not working, i don't understand it. All other tests were all green. :)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
