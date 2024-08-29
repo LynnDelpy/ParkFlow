@@ -8,26 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="326914c3-ea88-4004-9fad-16902580b8e8" name="Changes" comment="Small update&#10;&#10;small fix for some little things">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/bluecatcode_junit_4_10_extended.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mockito_all.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/ParkingGarage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ParkingGarage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/ControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/ParkingGarage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/ParkingGarage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/ParkingSpot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/ParkingSpot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Payment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/PaymentMachineTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Ticket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/TicketTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/model/ControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/model/ControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +85,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Lynn/IdeaProjects/ParkFlow1/src/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -113,6 +94,22 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="ControllerTest.testHandleEntrance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParkFlow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.ControllerTest" />
+      <option name="METHOD_NAME" value="testHandleEntrance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,6 +121,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ControllerTest.testHandleEntrance" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
