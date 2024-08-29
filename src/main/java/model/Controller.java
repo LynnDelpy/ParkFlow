@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Controller {
-    private UserInterface ui;
-    private ParkingGarage garage;
-    private PaymentMachine paymentMachine;
+    private final UserInterface ui;
+    private final ParkingGarage garage;
+    private final PaymentMachine paymentMachine;
 
     public Controller(UserInterface ui, ParkingGarage garage, PaymentMachine paymentMachine) {
         this.ui = ui;

@@ -4,7 +4,7 @@ package model;
 import java.util.Date;
 
 public class Payment {
-    private double amount;
+    private final double amount;
 
     public Payment(double amount) {
         this.amount = amount;

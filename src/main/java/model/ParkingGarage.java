@@ -5,12 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ParkingGarage {
-    private int totalSpots;
+    private final int totalSpots;
     private int availableSpots;
-    private Display display;
-    private EntranceGate entranceGate;
-    private ExitGate exitGate;
-    private List<ParkingSpot> parkingSpots;
+    private final Display display;
+    private final EntranceGate entranceGate;
+    private final ExitGate exitGate;
+    private final List<ParkingSpot> parkingSpots;
 
     public ParkingGarage(int totalSpots, Display display) {
         this.totalSpots = totalSpots;

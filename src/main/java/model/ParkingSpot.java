@@ -2,7 +2,7 @@
 package model;
 
 public class ParkingSpot {
-    private int spotNumber;
+    private final int spotNumber;
     private boolean isOccupied;
     private Ticket ticket; // Add this field
 

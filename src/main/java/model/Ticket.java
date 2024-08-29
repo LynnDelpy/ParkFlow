@@ -3,7 +3,7 @@ package model;
 import java.util.Date;
 
 public class Ticket {
-    private String ticketId;
+    private final String ticketId;
     Date issueTime;
     private boolean paid;
 

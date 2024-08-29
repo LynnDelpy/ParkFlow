@@ -1,10 +1,9 @@
 package model;
 
 import static org.mockito.Mockito.*;
-import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import java.util.Arrays;
+import java.util.List;
 
 public class ControllerTest {
     private UserInterface ui;
@@ -70,7 +69,7 @@ public class ControllerTest {
     public void testListAllTickets() {
         // Arrange
         Ticket ticket = new Ticket("T8");
-        when(garage.listAllTickets()).thenReturn(Arrays.asList(ticket));
+        when(garage.listAllTickets()).thenReturn(List.of(ticket));
 
         // Act
         controller.listAllTickets();
