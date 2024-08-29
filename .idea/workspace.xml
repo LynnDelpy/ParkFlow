@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326914c3-ea88-4004-9fad-16902580b8e8" name="Changes" comment="little fix so it is in minute price">
+    <list default="true" id="326914c3-ea88-4004-9fad-16902580b8e8" name="Changes" comment="Small update&#10;&#10;small fix for some little things">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/bluecatcode_junit_4_10_extended.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/mockito_all.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
@@ -187,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724857350832</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Small update&#10;&#10;small fix for some little things">
+      <option name="closed" value="true" />
+      <created>1724921237658</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724921237658</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +221,8 @@
     <MESSAGE value="little fix so it is in minute price" />
     <MESSAGE value="Total new start of project&#10;&#10;Not working, no testing done. Some logic missing. Sequence and Class diagram&#10;finished. Missing: payment processing logic,payment logic and logic to calculate fee.&#10;Programm will not crash but end itself" />
     <MESSAGE value="Projekt done&#10;&#10;Projekt is fully working. Unit testing done. ControllerTest.java is for some&#10; reason not working, i don't understand it. All other tests were all green. :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projekt done&#10;&#10;Projekt is fully working. Unit testing done. ControllerTest.java is for some&#10; reason not working, i don't understand it. All other tests were all green. :)" />
+    <MESSAGE value="Small update&#10;&#10;small fix for some little things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small update&#10;&#10;small fix for some little things" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
